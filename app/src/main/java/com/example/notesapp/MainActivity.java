@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Note note = new Note();
+        Log.d(TAG, "onCreate: my note: " + note.getTitle());
     }
 
     @Override
@@ -54,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
         note2.setTitle("title");
         note2.setContent("content");
         note2.setTimestamp("timestamp");
-
 
 
     }

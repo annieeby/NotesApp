@@ -2,7 +2,7 @@ package com.example.notesapp.models;
 
 public class Note {
 
-    //what must a note include? e.g. title, content, timetamp. these are the properties or fields that make a note a note
+    //what must a note include? e.g. title, content, timestamp. these are the properties or fields that make a note a note
 
     private String title;
     private String content;
@@ -47,7 +47,7 @@ public class Note {
     }
 
 
-  // alt+enter to Generate: To String()
+    // alt+insert to Generate: To String()
     @Override
     public String toString() {
         return "Note{" +
